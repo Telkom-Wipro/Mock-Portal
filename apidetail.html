@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Telkom | My API</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/dasdezine.css" rel="stylesheet">
+	<link href="css/sidebar-menu.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500|Raleway" rel="stylesheet">
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <!-- <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css"> -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body class="index">
+    <!-- Navigation -->
+    <div class="loadHeader"></div>
+
+    <!-- Header -->
+    <div class="pagesection detailapipage">
+		<div class="container registrationLogin">
+			<div class="contentbackground"></div>
+			<div class="detailapi">
+				<div class="searchSection">
+					<div class="searchbox">
+						<div class="searchInput">
+							<input placeholder="Search..." id="txtGlobalSearch" type="search">
+						</div>
+						<div class="searchIcon">
+							<a class="fa fa-search greentext" id="GlobalSearch" href="javascript:void(0);"></a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div>
+					<div class="btn-group-vertical buttonwidth">
+					  <button id="showLeft" class="btn btn-info">Show/Hide API Menu</button>
+					</div>
+				</div>				
+			<div class="container row slidemenustyle">
+
+<section class="animate-menu animate-menu-left slidemenustyle animate-menu-open">
+    <ul class="sidebar-menu">
+      <!-- <li class="sidebar-header">APIs</li> -->
+      <li class="firstlist">
+        <a href="#">
+          <i class="fa fa-th"></i> <span>API #1</span>
+          <i class="fa fa-angle-left pull-right"></i>
+        </a>
+        <ul class="sidebar-submenu">
+          <li><a href="#"><i class="fa fa-circle-o"></i>API #1.1<i class="fa fa-angle-left pull-right"></i></a>
+		    <ul class="sidebar-submenu">
+              <li>
+				<a href="#" class="tab-link" data-tab="tab-1_1_1"><i class="fa fa-circle-o"></i>API #1.1.1</a>
+			  </li>
+              <li>
+                <a href="#" class="tab-link" data-tab="tab-1_1_2"><i class="fa fa-circle-o"></i>API #1.1.2</a>
+              </li>
+            </ul>
+		  </li>
+          <li>
+            <a href="#"><i class="fa fa-circle-o"></i>API #1.2<i class="fa fa-angle-left pull-right"></i></a>
+            <ul class="sidebar-submenu">
+              <li>
+				<a href="#" class="tab-link" data-tab="tab-1_2_1"><i class="fa fa-circle-o"></i>API #1.2.1</a>
+			  </li>
+              <li>
+                <a href="#" class="tab-link" data-tab="tab-1_2_2"><i class="fa fa-circle-o"></i>API #1.2.2<small class="label pull-right label-info">new</small></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+	  
+	  <li>
+        <a href="#">
+          <i class="fa fa-th"></i> <span>API #2</span>
+          <i class="fa fa-angle-left pull-right"></i>
+        </a>
+        <ul class="sidebar-submenu">
+          <li><a href="#"><i class="fa fa-circle-o"></i>API #2.1<i class="fa fa-angle-left pull-right"></i></a>
+		    <ul class="sidebar-submenu">
+              <li>
+				<a href="#" class="tab-link" data-tab="tab-2_1_1"><i class="fa fa-circle-o"></i>API #2.1.1</a>
+			  </li>
+            </ul>
+		  </li>
+		  <li>
+            <a href="#"><i class="fa fa-circle-o"></i>API #2.2<i class="fa fa-angle-left pull-right"></i></a>
+            <ul class="sidebar-submenu">
+              <li>
+				<a href="#" class="tab-link" data-tab="tab-2_2_1"><i class="fa fa-circle-o"></i>API #2.2.1</a>
+			  </li>
+              <li>
+                <a href="#" class="tab-link" data-tab="tab-2_2_2"><i class="fa fa-circle-o"></i>API #2.2.2</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+	  
+	  <li>
+        <a href="#">
+          <i class="fa fa-th"></i> <span>API #3</span>
+          <i class="fa fa-angle-left pull-right"></i>
+        </a>
+        <ul class="sidebar-submenu">
+          <li><a href="#"><i class="fa fa-circle-o"></i>API #3.1<i class="fa fa-angle-left pull-right"></i></a>
+		    <ul class="sidebar-submenu">
+              <li>
+				<a href="#" class="tab-link" data-tab="tab-3_1_1"><i class="fa fa-circle-o"></i>API #3.1.1</a>
+			  </li>
+              <li>
+                <a href="#" class="tab-link" data-tab="tab-3_1_2"><i class="fa fa-circle-o"></i>API #3.1.2</a>
+              </li>
+            </ul>
+		  </li>
+        </ul>
+      </li>
+	  
+	  <li class="lastlist">
+        <a href="#">
+          <i class="fa fa-th"></i> <span>API #4</span>
+          <i class="fa fa-angle-left pull-right"></i>
+        </a>
+        <ul class="sidebar-submenu">
+          <li><a href="#"><i class="fa fa-circle-o"></i>API #4.1<i class="fa fa-angle-left pull-right"></i></a>
+		    <ul class="sidebar-submenu">
+              <li>
+				<a href="#" class="tab-link" data-tab="tab-4_1_1"><i class="fa fa-circle-o"></i>API #4.1.1</a>
+			  </li>
+              <li>
+                <a href="#" class="tab-link" data-tab="tab-4_1_2"><i class="fa fa-circle-o"></i>API #4.1.2</a>
+              </li>
+            </ul>
+		  </li>
+		  <li><a href="#" class="tab-link" data-tab="tab-4_2"><i class="fa fa-circle-o"></i>API #4.2</a></li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+				<div id="tab-0" class="tab-content current">
+					<h3 class="detailhead">API #0</h3>
+									<div class="ptop">
+										<h5>Detail API #0</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<iframe width="800" height="315"
+										src="https://www.youtube.com/embed/LlaCjMWHSyk">
+										</iframe>
+									</div>
+									<div class="ptop">
+										<h5>Related API #0</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+									
+									
+				</div>
+				<div id="tab-1_1_1" class="tab-content">
+					<h3 class="detailhead">API #1.1.1</h3>
+									<div class="ptop">
+										<h5>Detail API #1.1.1</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+									<div class="ptop">
+										<h5>Related API #0</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+				</div>
+				<div id="tab-1_1_2" class="tab-content">
+					 <h3 class="detailhead">API #1.1.2</h3>
+									<div class="ptop">
+										<h5>Detail API #1.1.2</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+									<div class="ptop">
+										<h5>Related API #0</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+				</div>
+				<div id="tab-1_2_1" class="tab-content">
+					<h3 class="detailhead">API #1.2.1</h3>
+									<div class="ptop">
+										<h5>Detail API #1.2.1</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+									<div class="ptop">
+										<h5>Related API #0</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+				</div>
+				<div id="tab-1_2_2" class="tab-content">
+					 <h3 class="detailhead">API #1.2.2</h3>
+									<div class="ptop">
+										<h5>Detail API #1.2.2</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+									<div class="ptop">
+										<h5>Related API #0</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+				</div>
+
+				<div id="tab-2_1_1" class="tab-content">
+					 <h3 class="detailhead">API #2.1.1</h3>
+									<div class="ptop">
+										<h5>Detail API #2.1.1</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+									<div class="ptop">
+										<h5>Related API #0</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+				</div>
+				<div id="tab-2_2_1" class="tab-content">
+					<h3 class="detailhead">API #2.2.1</h3>
+									<div class="ptop">
+										<h5>Detail API #2.2.1</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+									<div class="ptop">
+										<h5>Related API #0</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+				</div>
+				<div id="tab-2_2_2" class="tab-content">
+					 <h3 class="detailhead">API #2.2.2</h3>
+									<div class="ptop">
+										<h5>Detail API #2.2.2</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+									<div class="ptop">
+										<h5>Related API #0</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+				</div>
+				
+				<div id="tab-3_1_1" class="tab-content">
+					<h4 class="detailhead">API #3.1.1</h4>
+									<div class="ptop">
+										<h5>Detail API #3.1.1</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+									<div class="ptop">
+										<h5>Related API #0</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+				</div>
+				<div id="tab-3_1_2" class="tab-content">
+					 <h3 class="detailhead">API #3.1.2</h3>
+									<div class="ptop">
+										<h5>Detail API #3.1.2</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+									<div class="ptop">
+										<h5>Related API #0</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+				</div>
+				<div id="tab-4_1_1" class="tab-content">
+					<h4 class="detailhead">API #4.1.1</h4>
+									<div class="ptop">
+										<h5>Detail API #0</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+									<div class="ptop">
+										<h5>Related API #0</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+				</div>
+				<div id="tab-4_1_2" class="tab-content">
+					 <h4 class="detailhead">API #4.1.2</h4>
+									<div class="ptop">
+										<h5>Detail API #0</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+									<div class="ptop">
+										<h5>Related API #0</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+				</div>
+				<div id="tab-4_2" class="tab-content">
+					<h4 class="detailhead">API #4.2</h4>
+									<div class="ptop">
+										<h5>Detail API #0</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+									<div class="ptop">
+										<h5>Related API #0</h5>
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<p>
+											Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes Specifications, code samples, API consoles and SDKs xyzWireless network connectivity management
+											IoT hardware resources and processes.
+											
+										</p>
+										
+										<div class="example">
+											<p class="commonpadd">Example....</p>
+										</div>
+									</div>
+				</div>
+			</div><!-- container -->		
+				<div class="trynow popupclick">
+				<a class="wgitetext" href="paymentplan.html">Try Now</a>
+				<a href="popup.html">Add To Cart</a>
+				<a href="popup.html">Try Now</a></div>
+			</div>
+			
+		</div>
+	</div>
+	
+    <!-- My Likes Grid Section -->
+    
+	
+   
+
+    <!-- Portfolio Grid Section -->
+    
+
+    <!-- Footer -->
+    <div class="loadFooter"></div>
+
+	
+
+    <!-- jQuery -->
+    <!-- Bootstrap Core JavaScript -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="./js/sidebar-menu.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	
+    <!-- Plugin JavaScript -->
+    
+<script>
+$(function(){
+	//header and footer load
+	$('.loadHeader').load("header.html");
+	$('.loadFooter').load("footer.html");
+	//header and footer load end
+	var d_tab = window.location.hash.substr(1);
+	$("#tab-0").addClass('current');
+	if(d_tab!==""){
+		$('.tab-content').removeClass('current');
+		$("#"+d_tab).addClass('current');
+	}
+	
+	$('.tab-link').click(function(){
+		var tab_id = $(this).attr('data-tab');
+		$('.tab-content').removeClass('current');
+		$("#"+tab_id).addClass('current');
+
+	})  
+ 	
+
+
+    $.sidebarMenu($('.sidebar-menu'))
+	
+	$('#showLeft').click(function () {
+    $('.animate-menu-left').toggleClass('animate-menu-open')
+    })
+
+  
+});
+
+
+
+
+
+</script>
+   
+
+
+</body>
+
+</html>
